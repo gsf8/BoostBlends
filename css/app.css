@@ -4,6 +4,7 @@ html, body{
   background-color: white;
   font-family: 'nunito', sans-serif;
   font-weight: 600;
+  min-width: 800px;
 }
 .Content{
   height: 100%;
@@ -123,8 +124,9 @@ body{
 img{
   width: 100%;
 }
+/* Source https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_slideshow_caption */
 .mySlides {display:none;}
-
+/* end */
 hl{
   color: black;
 }
@@ -152,11 +154,11 @@ hl{
 }
 hr{
   display: block;
-  margin-left: -500px;
+  margin-left: -1000px;
   width: 10000px; !important;
 }
 .endinghr{
-  padding-bottom: 450px;
+  margin-bottom: 450px;
 }
 .w3-container{
   margin: 0 auto;
@@ -190,7 +192,6 @@ hr{
   text-align: center;
   position: absolute;
   bottom: -1800px;
-  left: 0px;
   padding-top: 20px;
 }
 .footer .footer-content{
