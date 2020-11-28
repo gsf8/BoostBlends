@@ -2,7 +2,7 @@ html, body{
   height: 100%;
   margin:0;
   background-color: white;
-  font-family: 'nunito', sans-serif;
+  font-family: 'kiro', sans-serif;
   font-weight: 600;
   min-width: 800px;
 }
@@ -85,6 +85,9 @@ nav a:hover::before{
   width:100%;
 }
 h1{
+  text-align: center;
+  padding-top: 200px;
+  font-weight:00;
   color: #FFA400;
 }
 h2{
