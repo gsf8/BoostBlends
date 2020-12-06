@@ -310,7 +310,7 @@ hr{
   width: 100%;
   text-align: center;
   position: absolute;
-  bottom: 0px;
+  bottom: -600px;
   padding-top: 20px;
 }
 .footer .aboutfooter-bottom{
@@ -320,7 +320,17 @@ hr{
   width: 100%;
   text-align: center;
   position: absolute;
-  bottom: -400px;
+  bottom: -700px;
+  padding-top: 20px;
+}
+.footer .drinkfooter-bottom{
+  display: block;
+  background-color: #f7f0f0;
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: -500px;
   padding-top: 20px;
 }
 form{
@@ -336,7 +346,7 @@ form{
   width: 100%;
   text-align: center;
   position: absolute;
-  bottom: -2000px;
+  bottom: -2500px;
   padding-top: 20px;
 }
 .form-control{
@@ -447,8 +457,11 @@ text-align: center;
 }
 
 .card2 img {
-  width: 800px;
+  width: 400px;
   border-radius: 5px;
+}
+.card2{
+  max-width: 400px;
 }
 
 .card2 .text {
@@ -463,6 +476,7 @@ font-size: 14px;
   border-radius: 5px;
   font-weight: bold;
   width: 100%;
+  max-width: 100px;
 
 }
 
