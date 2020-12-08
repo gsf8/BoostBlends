@@ -153,6 +153,12 @@ h2{
   text-align: center;
   font-weight: bold;
 }
+.pickflavor{
+  padding-top: 30px;
+  margin-bottom: -20px;
+  color: #214f4b;
+  font-size: 30px;
+}
 .drinktitle{
   text-align: left;
   font-size: 36px;
@@ -278,6 +284,9 @@ hr{
   border-radius: 5px;
 
 }
+
+.ordernow{
+  margin-left: -390px;
 }
 /* footer */
 .footer{
@@ -429,15 +438,20 @@ margin-top: -20px;
 font-size: 16px;
 font-weight: 500;
 }
+
 .select-drink{
   background-color: #ff9e00;
   border: none;
   padding: 1em;
   border-radius: 5px;
-  font-weight: bold;
+  font-weight:bolder;
+  font-size: 13px;
   width: 100%;
+  color: white;
 
 }
+
+
 .menu-list .card2{
   background-color: white;
   border-radius: 10px;
