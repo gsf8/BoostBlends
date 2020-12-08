@@ -350,6 +350,7 @@ form{
   padding-top: 20px;
 }
 .form-control{
+  font-family: 'kiro';
   font-size: 20px;
   width: 600px;
   background: transparent;
